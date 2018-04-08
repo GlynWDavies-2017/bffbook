@@ -1,12 +1,3 @@
-<?php 
-    $con = mysqli_connect("localhost","bffadmin","pa55word","bffbook");
-    if(mysqli_connect_errno()) {
-        echo "Failed to connect: " . mysqli_connect_errno();
-    }
-    $query = "INSERT INTO test VALUES('1','Samantha')";
-    $query = mysqli_query($con,$query);
-?> 
-
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
